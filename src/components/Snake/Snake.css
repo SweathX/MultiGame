@@ -1,0 +1,24 @@
+.snake-dot {
+  width: 2%;
+  height: 2%;
+  background-color: green;
+  position: absolute;
+}
+
+.food-dot {
+  width: 2%;
+  height: 2%;
+  background-color: red;
+  position: absolute;
+}
+
+.game-board {
+  position: relative;
+  background-color: brown;
+  background-size: cover;
+  /* ou 100% 100% pour couvrir tout l'espace */
+  width: 500px;
+  /* ou la taille souhaitée */
+  height: 500px;
+  /* ou la taille souhaitée */
+}

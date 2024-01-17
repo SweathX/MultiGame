@@ -14,6 +14,8 @@ function navBar() {
                         <Nav.Link href="/" className="text-light">Home</Nav.Link> {/* Classe text-light appliquée */}
                         <NavDropdown title="Game" id="basic-nav-dropdown" className="text-light"> {/* Classe text-light appliquée */}
                             <NavDropdown.Item href="/Morpion" className="text-dark">Morpion</NavDropdown.Item> {/* Classe text-dark pour les éléments déroulants */}
+                            <NavDropdown.Item href="/Snake" className="text-dark">Snake</NavDropdown.Item> {/* Classe text-dark pour les éléments déroulants */}
+
                             <NavDropdown.Divider />
                             <NavDropdown.Item href="https://www.matheobeaunez.fr/" className="text-dark">A propos de moi</NavDropdown.Item> {/* Classe text-dark pour les éléments déroulants */}
                         </NavDropdown>
